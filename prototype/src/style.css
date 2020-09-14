@@ -1,0 +1,102 @@
+
+
+div{
+    padding:5px;
+  }
+
+#h_1{
+    background-color: #3CBA3F;
+    width:100%;
+    color: #fff;
+    text-size-adjust: 20px;
+    font-family: 'Lacquer', sans-serif;
+    border: 5px solid black;
+    animation: topmove 1s infinite, leftmove 2s infinite, bottommove 1s infinite, rightmove 2s infinite;;
+    
+    
+}
+
+.hL{
+    padding-top:15px;
+    color:#fff;
+    text-size-adjust: 32px;
+}
+
+.hL:hover{
+    top:10px;
+    text-decoration: solid;
+    color:#1D5D1E
+}
+
+.m_1{
+    align-content: center;
+    background-color: #b9b8b8ce;
+    border-radius: 5px;
+    
+}
+
+#container{
+    width: 100%;
+    padding-top: 15px;
+    margin: auto;
+    position: relative; 
+}
+
+#side_1{
+    width:50%;
+    float:left;
+    position: relative;
+}
+
+#side_2{
+    width:50%;
+    float: right;
+    position: relative;
+}
+.foot{
+    color:#fff;
+    background-color: #080808;
+    border-start-start-radius: 5px solid black;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    border-bottom: 5px solid black;
+    text-align: center;
+    position: relative;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links a {
+    color: #171717;
+}
+
+.footer-links a:hover,
+.footer a:hover {
+    color: #241c65 ;
+	font-weight: bold;
+}
+
+
+
+@keyframes bordermove{
+  50% {border-left-color: black;}
+  50% {border-right-color: black;}
+}
+@keyframes topmove{
+    50% {border-top-color: green;} 
+}
+@keyframes leftmove{
+    50% {border-left-color: green;} 
+}
+@keyframes bottommove{
+    50% {border-bottom-color: green;} 
+}
+@keyframes rightmove{
+    50% {border-right-color: green;} 
+}
